@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\packages",
-    "\\packages\\blockchain-common",
-    "\\packages\\blockchain-common\\test",
-    "\\packages\\blockchain-common\\test\\fabricModel"
+    ""
   ],
+  "SelectedNode": "\\C:\\Users\\white\\Source\\Repos\\blockchain-vscode-extension",
   "PreviewInSolutionExplorer": false
 }

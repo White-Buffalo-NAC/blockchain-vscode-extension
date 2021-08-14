@@ -1,31 +1,168 @@
 {
-	"folders": [
-		{
-			"path": "packages/blockchain-common"
-		},
-		{
-			"path": "packages/blockchain-extension"
-		},
-		{
-			"path": "packages/blockchain-gateway-v1"
-		},
-		{
-			"path": "packages/blockchain-ui"
-		},
-		{
-			"path": "packages/blockchain-environment-v1"
-		},
-		{
-			"path": "packages/blockchain-wallet"
-		},
-		{
-			"path": "packages/blockchain-website"
-		},
-		{
-			"path": "packages/blockchain-fabric-admin"
-		}
-	],
-	"settings": {
-		"typescript.tsdk": "./node_modules/typescript/lib"
-	}
+  "folders": [
+    {
+      "path": "packages/blockchain-common"
+    },
+    {
+      "path": "packages/blockchain-extension"
+    },
+    {
+      "path": "packages/blockchain-gateway-v1"
+    },
+    {
+      "path": "packages/blockchain-ui"
+    },
+    {
+      "path": "packages/blockchain-environment-v1"
+    },
+    {
+      "path": "packages/blockchain-wallet"
+    },
+    {
+      "path": "packages/blockchain-website"
+    },
+    {
+      "path": "packages/blockchain-fabric-admin"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "./node_modules/typescript/lib"
+  }
+  {
+  }
+  INFO [ 08-27|08 : 51 : 06.172 ]
+  Disk storage
+  enabled for
+  ethash caches
+  dir=C: \Users\white\AppData\Local\Ethereum\geth\ethash
+  count=3 INFO
+  [ 08-27|08 : 51 : 06.178 ]
+  Disk storage
+  enabled for
+  ethash DAGs
+  dir=C: \Users\white\AppData\Local\Ethash
+  count=2 INFO
+  [ 08-27|08 : 51 : 06.185 ]
+  Loaded most
+  recent local
+  header number=9,
+  797,
+  040 hash=02d5c0..8b760e
+  td=14,
+  820,
+  565,
+  323,
+  197,
+  525,
+  339,
+  527 age=1y5mo1d
+  INFO [ 08-27|08 : 51 : 06.193 ]
+  Loaded most
+  recent local
+  full block
+  number=0 hash=d4e567..cb8fa3
+  td=17,
+  179,
+  869,
+  184 age=52y4mo3w
+  INFO [ 08-27|08 : 51 : 06.207 ]
+  Loaded most
+  recent local
+  fast block
+  number=9,
+  774,
+  742 hash=a33f10..1b41c6
+  td=14,
+  771,
+  142,
+  133,
+  899,
+  531,
+  622,
+  000 age=1y5mo4d
+  INFO [ 08-27|08 : 51 : 06.215 ]
+  Loaded last
+  fast-sync pivot
+  marker number=13,
+  107,
+  693 WARN
+  [ 08-27|08 : 51 : 06.222 ]
+  Snapshot maintenance
+  disabled (syncing)
+  INFO [ 08-27|08 : 51 : 06.231 ]
+  Importing blockchain
+  file=https: //polygon-mainnet.g.alchemy.com/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha
+  ERROR
+  [ 08-27|08 : 51 : 06.255 ]
+  Import error
+  err="open https://polygon-mainnet.g.alchemy.com/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha: The filename, directory name, or volume label syntax is incorrect." ERROR
+  [ 08-27|08 : 51 : 06.276 ]
+  Failed to
+  journal state
+  snapshot err="snapshot [0xd7f8974fb5ac78d9ac099b9ad5018bedc2ce0a72dad1827a1709da30580f0544] missing"
+  INFO [ 08-27|08 : 51 : 06.290 ]
+  Blockchain stopped
+  Import done
+  in 69.4995ms.
+
+  Compactions Level
+  | Tables
+  | Size(MB)
+  | Time(sec)
+  | Read(MB)
+  | Write(MB)
+  -------+------------+---------------+---------------+---------------+--------------- 0
+  | 2
+  | 418.55206
+  | 0.00000
+  | 0.00000
+  | 0.00000
+  1 |
+  47 |
+  85.86117 |
+  0.00000 |
+  0.00000 |
+  0.00000 2
+  | 621
+  | 951.94156
+  | 0.00000
+  | 0.00000
+  | 0.00000
+  3 |
+  6646 |
+  9735.36938 |
+  0.00000 |
+  0.00000 |
+  0.00000 4
+  | 39997
+  | 79628.86350
+  | 0.00000
+  | 0.00000
+  | 0.00000
+  -------+------------+---------------+---------------+---------------+--------------- Total
+  | 47313
+  | 90820.58766
+  | 0.00000
+  | 0.00000
+  | 0.00000
+
+  Read(MB): 16.06136
+  Write(MB): 5.65873
+  Object
+  memory: 189.426
+  MB current,
+  189.400 MB
+  peak System
+  memory: 313.005
+  MB current,
+  313.005 MB
+  peak
+  Allocations: 1.028
+  million GC
+  pause: 501.7µs
+
+  Compacting entire
+  database...
+
+
 }
