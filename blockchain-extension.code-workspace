@@ -27,142 +27,177 @@
   ],
   "settings": {
     "typescript.tsdk": "./node_modules/typescript/lib"
-  }
+  },
   {
-  }
-  INFO [ 08-27|08 : 51 : 06.172 ]
-  Disk storage
-  enabled for
-  ethash caches
-  dir=C: \Users\white\AppData\Local\Ethereum\geth\ethash
-  count=3 INFO
-  [ 08-27|08 : 51 : 06.178 ]
-  Disk storage
-  enabled for
-  ethash DAGs
-  dir=C: \Users\white\AppData\Local\Ethash
-  count=2 INFO
-  [ 08-27|08 : 51 : 06.185 ]
-  Loaded most
-  recent local
-  header number=9,
+  },
+  "INFO" [ "08-27|08", :, 51, :, "06.172" ],
+  "Disk" "storage",
+  "enabled" "for",
+  "ethash" "caches",
+  "dir=C": "\\Users\\white\\AppData\\Local\\Ethereum\\geth\\ethash",
+  "count=3" "INFO",
+  [ "08-27|08", :, 51, :, "06.178" ],
+  "Disk" "storage",
+  "enabled" "for",
+  "ethash" "DAGs",
+  "dir=C": "\\Users\\white\\AppData\\Local\\Ethash",
+  "count=2" "INFO",
+  [ "08-27|08", :, 51, :, "06.185" ],
+  "Loaded" "most",
+  "recent" "local",
+  "header" "number=9",
   797,
-  040 hash=02d5c0..8b760e
-  td=14,
+  "040" "hash=02d5c0..8b760e",
+  "td=14",
   820,
   565,
   323,
   197,
   525,
   339,
-  527 age=1y5mo1d
-  INFO [ 08-27|08 : 51 : 06.193 ]
-  Loaded most
-  recent local
-  full block
-  number=0 hash=d4e567..cb8fa3
-  td=17,
+  527 "age=1y5mo1d",
+  "INFO" [ "08-27|08", :, 51, :, "06.193" ],
+  "Loaded" "most",
+  "recent" "local",
+  "full" "block",
+  "number=0" "hash=d4e567..cb8fa3",
+  "td=17",
   179,
   869,
-  184 age=52y4mo3w
-  INFO [ 08-27|08 : 51 : 06.207 ]
-  Loaded most
-  recent local
-  fast block
-  number=9,
+  184 "age=52y4mo3w",
+  "INFO" [ "08-27|08", :, 51, :, "06.207" ],
+  "Loaded" "most",
+  "recent" "local",
+  "fast" "block",
+  "number=9",
   774,
-  742 hash=a33f10..1b41c6
-  td=14,
+  742 "hash=a33f10..1b41c6",
+  "td=14",
   771,
   142,
   133,
   899,
   531,
   622,
-  000 age=1y5mo4d
-  INFO [ 08-27|08 : 51 : 06.215 ]
-  Loaded last
-  fast-sync pivot
-  marker number=13,
+  "000" "age=1y5mo4d",
+  "INFO" [ "08-27|08", :, 51, :, "06.215" ],
+  "Loaded" "last",
+  "fast-sync" "pivot",
+  "marker" "number=13",
   107,
-  693 WARN
-  [ 08-27|08 : 51 : 06.222 ]
-  Snapshot maintenance
-  disabled (syncing)
-  INFO [ 08-27|08 : 51 : 06.231 ]
-  Importing blockchain
-  file=https: //polygon-mainnet.g.alchemy.com/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha
-  ERROR
-  [ 08-27|08 : 51 : 06.255 ]
-  Import error
-  err="open https://polygon-mainnet.g.alchemy.com/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha: The filename, directory name, or volume label syntax is incorrect." ERROR
-  [ 08-27|08 : 51 : 06.276 ]
-  Failed to
-  journal state
-  snapshot err="snapshot [0xd7f8974fb5ac78d9ac099b9ad5018bedc2ce0a72dad1827a1709da30580f0544] missing"
-  INFO [ 08-27|08 : 51 : 06.290 ]
-  Blockchain stopped
-  Import done
-  in 69.4995ms.
+  693 "WARN",
+  [ "08-27|08", :, 51, :, "06.222" ],
+  "Snapshot" "maintenance",
+  "disabled" "(syncing)",
+  "INFO" [ "08-27|08", :, 51, :, "06.231" ],
+  "Importing" "blockchain",
+  "file=https": //polygon-mainnet.g.alchemy.com/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha
+  "ERROR",
+  [ "08-27|08", :, 51, :, "06.255" ],
+  "Import" "error",
+  "err=\"open https://polygon-mainnet.g.alchemy.com/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha: The filename, directory name, or volume label syntax is incorrect.\"" "ERROR",
+  [ "08-27|08", :, 51, :, "06.276" ],
+  "Failed" "to",
+  "journal" "state",
+  "snapshot" "err=\"snapshot [0xd7f8974fb5ac78d9ac099b9ad5018bedc2ce0a72dad1827a1709da30580f0544] missing\"",
+  "INFO" [ "08-27|08", :, 51, :, "06.290" ],
+  "Blockchain" "stopped",
+  "Import" "done",
+  "in" "69.4995ms.",
 
-  Compactions Level
-  | Tables
-  | Size(MB)
-  | Time(sec)
-  | Read(MB)
-  | Write(MB)
-  -------+------------+---------------+---------------+---------------+--------------- 0
-  | 2
-  | 418.55206
-  | 0.00000
-  | 0.00000
-  | 0.00000
-  1 |
-  47 |
-  85.86117 |
-  0.00000 |
-  0.00000 |
-  0.00000 2
-  | 621
-  | 951.94156
-  | 0.00000
-  | 0.00000
-  | 0.00000
-  3 |
-  6646 |
-  9735.36938 |
-  0.00000 |
-  0.00000 |
-  0.00000 4
-  | 39997
-  | 79628.86350
-  | 0.00000
-  | 0.00000
-  | 0.00000
-  -------+------------+---------------+---------------+---------------+--------------- Total
-  | 47313
-  | 90820.58766
-  | 0.00000
-  | 0.00000
-  | 0.00000
+  "Compactions" "Level",
+  "|" "Tables",
+  "|" "Size(MB)",
+  "|" "Time(sec)",
+  "|" "Read(MB)",
+  "|" "Write(MB)",
+  "-------+------------+---------------+---------------+---------------+---------------" 0,
+  "|" 2,
+  "|" 418.55206,
+  "|" 0.00000,
+  "|" 0.00000,
+  "|" 0.00000,
+  1 "|",
+  47 "|",
+  85.86117 "|",
+  0.00000 "|",
+  0.00000 "|",
+  0.00000 2,
+  "|" 621,
+  "|" 951.94156,
+  "|" 0.00000,
+  "|" 0.00000,
+  "|" 0.00000,
+  3 "|",
+  6646 "|",
+  9735.36938 "|",
+  0.00000 "|",
+  0.00000 "|",
+  0.00000 4,
+  "|" 39997,
+  "|" 79628.86350,
+  "|" 0.00000,
+  "|" 0.00000,
+  "|" 0.00000,
+  "-------+------------+---------------+---------------+---------------+---------------" "Total",
+  "|" 47313,
+  "|" 90820.58766,
+  "|" 0.00000,
+  "|" 0.00000,
+  "|" 0.00000,
 
-  Read(MB): 16.06136
-  Write(MB): 5.65873
-  Object
-  memory: 189.426
-  MB current,
-  189.400 MB
-  peak System
-  memory: 313.005
-  MB current,
-  313.005 MB
-  peak
-  Allocations: 1.028
-  million GC
-  pause: 501.7µs
+  "Read(MB)": 16.06136,
+  "Write(MB)": 5.65873,
+  "Object": null,
+  "memory": 189.426,
+  "MB" "current",
+  189.400 "MB",
+  "peak" "System",
+  "memory": 313.005,
+  "MB" "current",
+  313.005 "MB",
+  "peak": null,
+  "Allocations": 1.028,
+  "million" "GC",
+  "pause": "501.7µs",
 
-  Compacting entire
-  database...
+  "Compacting" "entire",
+  "database..."
 
 
-}
+}:\> geth account new
+INFO [08-27|10:01:09.487] Maximum peer count                       ETH=50 LES=0 total=50
+Your new account is locked with a password. Please give a password. Do not forget this password.
+Password:
+Repeat password:
+
+Your new key was generated
+
+Public address of the key:   0x6A06817c62743a592Ca6095fC91799C7d85bA023
+Path of the secret key file: C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-27T15-01-18.906110000Z--6a06817c62743a592ca6095fc91799c7d85ba023
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+PS G:\>
+INFO [08-27|10:02:56.389] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [08-27|10:02:56.411] Set global gas cap                       cap=50,000,000
+Account #0: {363744998c7944e1e7c11f874c8e9105e9236c0b} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-17T18-51-57.969812600Z--363744998c7944e1e7c11f874c8e9105e9236c0b
+Account #1: {71296ca35f4e023878829e8ccca63ce0e0719184} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-17T19-37-00.786015000Z--71296ca35f4e023878829e8ccca63ce0e0719184
+Account #2: {4801fe5ac3daa9f5dffba1a5adb916bddd94c807} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-17T19-49-56.908626300Z--4801fe5ac3daa9f5dffba1a5adb916bddd94c807
+Account #3: {a7cd3f187824ac02c9341fdbb116c779e1f62119} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-17T20-00-53.269069900Z--a7cd3f187824ac02c9341fdbb116c779e1f62119
+Account #4: {376d0c9c6ba38f0a4ae5cd9711e881e350eb0bc3} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-18T01-37-10.981369800Z--376d0c9c6ba38f0a4ae5cd9711e881e350eb0bc3
+Account #5: {0a89468a7bbd1f38363f50a25318eabb7b371284} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-18T09-25-35.271935500Z--0a89468a7bbd1f38363f50a25318eabb7b371284
+Account #6: {29b9682610a8b251bab9386509158863e59eb1af} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-18T09-43-43.284836200Z--29b9682610a8b251bab9386509158863e59eb1af
+Account #7: {da05808a5a9a883e519850e6ecab64e73993f554} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-18T13-40-03.765444000Z--da05808a5a9a883e519850e6ecab64e73993f554
+Account #8: {70f3c33955013d2f149f58dd52871ab99f91893a} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-18T16-04-01.581983500Z--70f3c33955013d2f149f58dd52871ab99f91893a
+Account #9: {2b296a38c14294610df829f56c47972609cec10a} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-18T16-11-36.215696200Z--2b296a38c14294610df829f56c47972609cec10a
+Account #10: {b375e8a51b759de964e7a9da32cf4ec8ba6859e9} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-18T16-40-54.678117100Z--b375e8a51b759de964e7a9da32cf4ec8ba6859e9
+Account #11: {2a4890e2ec174a9547b65bbed8cac27a30cea4b4} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-18T17-22-47.516354800Z--2a4890e2ec174a9547b65bbed8cac27a30cea4b4
+Account #12: {223b330217315740d70d6a8c5b7786987c16411f} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-19T22-00-55.883467000Z--223b330217315740d70d6a8c5b7786987c16411f
+Account #13: {26d3c990cf47dd8257863de388d1f27764f8276a} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-20T20-39-52.988614300Z--26d3c990cf47dd8257863de388d1f27764f8276a
+Account #14: {382234176adb3cf3bd9367d0b19d1ed0b6f4fdd3} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-27T09-29-09.148716700Z--382234176adb3cf3bd9367d0b19d1ed0b6f4fdd3
+Account #15: {6a06817c62743a592ca6095fc91799c7d85ba023} keystore://C:\Users\white\AppData\Local\Ethereum\keystore\UTC--2021-08-27T15-01-18.906110000Z--6a06817c62743a592ca6095fc91799c7d85ba023
+PS C:\WINDOWS\system32>
